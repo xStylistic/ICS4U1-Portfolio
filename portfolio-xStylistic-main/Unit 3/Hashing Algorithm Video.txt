@@ -1,1 +1,21 @@
 Link to video!
+
+AFTER VIDEO MUTILPLE CHOICE QUESTIONS
+
+Question 1: Why are padding bits needed in the hashing process? 
+
+a) To fill the blocks memory
+b) To create more blocks
+c) To change the input 
+
+Answer: a) 
+Padding is added so the length is divisible by the full storage of a data block. If the data block can only store 512 bits, then the padding bits will add useless bits to the block to fill it to 512 bits. The bit representation of the message is the one being calculated through the hash function. Since the message needs to be broken into equal bit chunks that will not always fill a data block completely, extra bits are added as padding so it can run through the hash function. 
+
+Question 2: How many times is the block chain process repeated? 
+
+a) 5 times 
+b) 3 times
+c) As many times as there are data blocks 
+
+Answer: c)
+Blockchain is repeated as many times as data blocks because each data block stores bits that need to be hashed. Since the information is divided evenly across blocks, each block needs to be hashed, so the process will repeat as many times as needed until the whole input is hashed.
